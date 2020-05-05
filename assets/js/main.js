@@ -177,6 +177,33 @@
 			}
 		}
 	});
+
+	// Carousel doctors
+	$('#doctors').owlCarousel({
+		autoplay:true,
+		rtl: true,
+		items: 2,
+		loop: true,
+		margin: 10,
+		dots:false,
+		nav:false,
+		lazyLoad: true,
+		autoplayTimeout: 3000,
+		responsive: {
+			0: {
+				items: 3
+			},
+			767: {
+				items: 4
+			},
+			1000: {
+				items: 4
+			},
+			1300: {
+				items: 4
+			}
+		}
+	});
 	
 	// Carousel brands
 	$('#product_detail').owlCarousel({

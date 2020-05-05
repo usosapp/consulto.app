@@ -903,3 +903,10 @@ button.mfp-close {
 .box_account h3.new_client {
   background: url(../img/shop/svg/new_user.svg) center right no-repeat;
 }
+
+
+.filter_type.version_2 h4 a:after {
+  left: 10px;
+  right: auto;
+  top: 8px;
+}
