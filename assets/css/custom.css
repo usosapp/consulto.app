@@ -63,10 +63,23 @@
 
 
 
+.search-doctor{
+    background: url(../img/doctor/bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 .search-doctor .btn_1{
     padding: .375rem .75rem;
 }
+.search-doctor .main_title{
+    color: #fff;
+}
 
+.search-doctor .box_account .form_container{
+    background-color: #FCFDFE ;
+    padding: 30px 20px;
+}
 
 .doctor-slider .slick-slide{
 	display: block;
