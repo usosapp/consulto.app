@@ -63,20 +63,20 @@
 
 
 
-.search-doctor{
+.search-section{
     background: url(../img/doctor/bg.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
-.search-doctor .btn_1{
+.search-section .btn_1{
     padding: .375rem .75rem;
 }
-.search-doctor .main_title{
+.search-section .main_title{
     color: #fff;
 }
 
-.search-doctor .box_account .form_container{
+.search-section .box_account .form_container{
     background-color: #FCFDFE ;
     padding: 30px 20px;
 }
@@ -212,4 +212,14 @@
 	background-color: #FFE000;
 	border-color: #FFE000;
 	color: #fff;
+}
+
+
+
+
+.labs{
+    background: url(../img/labs/bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }

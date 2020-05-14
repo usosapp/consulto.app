@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="Ansonika">
-	<title>Consulto.App | DOCTOR</title>
+	<title>Consulto.App | labs</title>
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="assets/img/consulto/favicon/favicon.ico" type="image/x-icon">
@@ -77,7 +77,8 @@
 										<a href="javascript:void(0);" class="show-submenu">خدماتنا</a>
 										<ul>
 											<li><a href="shop.html">الصيدلية</a></li>
-											<li><a href="doctor.html">الدكتور</a></li>
+											<li><a href="doctor.html">المعمل</a></li>
+											<li><a href="labs.html">المعامل</a></li>
 										</ul>
 									</li>
 									<li>
@@ -132,24 +133,36 @@
 		<main>
 
 		
-			<div class="container-fluid margin_60 search-doctor">
+			<div class="container-fluid margin_60 search-section labs">
 				<div class="main_title">
-					<h2>ابحث عن طبيب ، حدد موعدًا</h2>
-					<p>اكتشف أفضل الأطباء ، أقرب مدينة لك.</p>
+					<h2>ابحث عن معمل تحليل</h2>
+					<p>اكتشف أفضل المعامل الطبيه ، أقرب مدينة لك.</p>
 				</div>
 
 				<div class="container">
 					<div class="row justify-content-center">
 	
 						<div class="col-12">
-							<form action="search.html">
+							<form action="search-labs.html">
 								<div class="box_account">
 									<div class="form_container">
 										<div class="row">
 											<div class="col-lg-4">
 												<div class="form-group">
-													<input type="doctor-name" class="form-control" name="doctor-name"
-														id="doctor_name" placeholder="اسم الدكتور*">
+													<input type="labs-name" class="form-control" name="labs-name"
+														id="labs_name" placeholder="اسم المعمل*">
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="form-group">
+													<div class="custom-select-form">
+														<select class="wide add_bottom_10" name="Especialty" id="Especialty">
+															<option value="" selected>الخدمة الطبيه*</option>
+															<option value="Especialty1">خدمة طبية1</option>
+															<option value="Especialty2">خدمة طبية2</option>
+															<option value="Especialty3">خدمة طبية3</option>
+														</select>
+													</div>
 												</div>
 											</div>
 											<div class="col-lg-4">
@@ -176,25 +189,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="col-lg-4">
-												<div class="form-group">
-													<div class="custom-select-form">
-														<select class="wide add_bottom_10" name="Especialty" id="Especialty">
-															<option value="" selected>التخصص*</option>
-															<option value="Especialty1">تخصص1</option>
-															<option value="Especialty2">تخصص2</option>
-															<option value="Especialty3">تخصص3</option>
-														</select>
-													</div>
-												</div>
-											</div>
-											<div class="col-lg-4">
-												<div class="form-group">
-													<input type="doctor-degree" class="form-control" degree="doctor-degree"
-														id="doctor_degree" placeholder="درجة العلمية*">
-												</div>
-											</div>
-											<div class="col-lg-4">
+											<div class="col-lg-8">
 												<button type="submit" value="" class="btn_1 full-width">بحث</button>
 											</div>
 										</div>
@@ -209,75 +204,69 @@
 
 
 			</div>
-			<!-- /container -->
+
 			
 
-
-
-			<hr class="mb-0">
 			<div class="container margin_60_35">
 				<div class="main_title">
-					<h2>الدكتور الاكثر تقيما</h2>
-					<span>الدكتور</span>
+					<h2>المعامل الاكثر تقيما</h2>
+					<span>المعامل</span>
 				</div>
-				<div id="doctors" class="owl-carousel owl-theme">
+				<div id="labs" class="owl-carousel owl-theme">
 					<div class="item">
 						<div class="profile-widget">
 							<div class="doc-img">
-								<a href="doctor-profile.html">
-									<img class="img-fluid" alt="" src="assets/img/doctor/doctor-img/doctor-02.jpg">
+								<a href="labs-profile.html">
+									<img class="img-fluid" alt="" src="assets/img/labs/labs-img/labs-01.jpg">
 								</a>
 							</div>
 							<div class="pro-content">
 								<h3 class="title">
-									<a href="doctor-profile.html">اسم الدكتور</a>
+									<a href="labs-profile.html">اسم المعمل</a>
 								</h3>
-								<p class="speciality">التخصص</p>
+								
 								<ul class="available-info">
 									<li>
 										<i class="fas fa-map-marker-alt"></i>العنوان</li>
 								</ul>
-								<button type="submit" value="" class="btn_1 full-width">الصفحة الشخصية</button>
 							</div>
 						</div>
 					</div><!-- /item -->
 					<div class="item">
 						<div class="profile-widget">
 							<div class="doc-img">
-								<a href="doctor-profile.html">
-									<img class="img-fluid" alt="" src="assets/img/doctor/doctor-img/doctor-03.jpg">
+								<a href="labs-profile.html">
+									<img class="img-fluid" alt="" src="assets/img/labs/labs-img/labs-02.jpg">
 								</a>
 							</div>
 							<div class="pro-content">
 								<h3 class="title">
-									<a href="doctor-profile.html">اسم الدكتور</a>
+									<a href="labs-profile.html">اسم المعمل</a>
 								</h3>
-								<p class="speciality">التخصص</p>
+								
 								<ul class="available-info">
 									<li>
 										<i class="fas fa-map-marker-alt"></i>العنوان</li>
 								</ul>
-								<button type="submit" value="" class="btn_1 full-width">الصفحة الشخصية</button>
 							</div>
 						</div>
 					</div><!-- /item -->
 					<div class="item">
 						<div class="profile-widget">
 							<div class="doc-img">
-								<a href="doctor-profile.html">
-									<img class="img-fluid" alt="" src="assets/img/doctor/doctor-img/doctor-01.jpg">
+								<a href="labs-profile.html">
+									<img class="img-fluid" alt="" src="assets/img/labs/labs-img/labs-01.jpg">
 								</a>
 							</div>
 							<div class="pro-content">
 								<h3 class="title">
-									<a href="doctor-profile.html">اسم الدكتور</a>
+									<a href="labs-profile.html">اسم المعمل</a>
 								</h3>
-								<p class="speciality">التخصص</p>
+								
 								<ul class="available-info">
 									<li>
 										<i class="fas fa-map-marker-alt"></i>العنوان</li>
 								</ul>
-								<button type="submit" value="" class="btn_1 full-width">الصفحة الشخصية</button>
 							</div>
 						</div>
 					</div><!-- /item -->
@@ -286,448 +275,8 @@
 			</div><!-- /container -->
 
 
-
-			<hr class="mb-0">
-			<div class="container margin_60_35">
-				<div class="main_title">
-					<h2>طبيبك</h2>
-					<span>الدكتور</span>
-				</div>
-
-				<div class="row">
-					<!-- /col -->
-					<div class="col-lg-12">
-
-						<!-- /row_item -->
-						<div class="row row_item">
-							<div class="col-sm-3">
-								<figure>
-									<a href="doctor-profile.html">
-										<img class="img-fluid lazy" src="assets/img/doctor/doctor-img/doctor-01.jpg"
-											alt="">
-									</a>
-								</figure>
-							</div>
-							<div class="col-sm-9">
-								<div class="pro-content">
-									<h3 class="title">
-										<a href="doctor-profile.html">دكتور . اسم الدكتور</a>
-									</h3>
-									<p class="speciality">التخصص</p>
-									<div class="available-info">
-										<div class="row mb-2">
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="fas fa-map-marker-alt"></i>
-													</div>
-													<div class="col-11">
-														<span>العنوان : العنوان بالكامل</span>
-													</div>
-												</div>
-											</div>
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="far fa-money-bill-alt"></i>
-													</div>
-													<div class="col-11">
-														<span>تكاليف الدكتور : 100 جنيه مصري</span>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="row mb-2">
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="fas fa-clock"></i>
-													</div>
-													<div class="col-11">
-														<span>تاريخ الحجز :  10-5-2020</span>
-													</div>
-												</div>
-											</div>
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="fas fa-calendar"></i>
-													</div>
-													<div class="col-11">
-														<span>وقت الحجز :  11:00 PM</span>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-	
-
-						<!-- /row_item -->
-						<div class="row row_item">
-							<div class="col-sm-3">
-								<figure>
-									<a href="doctor-profile.html">
-										<img class="img-fluid lazy" src="assets/img/doctor/doctor-img/doctor-01.jpg"
-											alt="">
-									</a>
-								</figure>
-							</div>
-							<div class="col-sm-9">
-								<div class="pro-content">
-									<h3 class="title">
-										<a href="doctor-profile.html">دكتور . اسم الدكتور</a>
-									</h3>
-									<p class="speciality">التخصص</p>
-									<div class="available-info">
-										<div class="row mb-2">
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="fas fa-map-marker-alt"></i>
-													</div>
-													<div class="col-11">
-														<span>العنوان : العنوان بالكامل</span>
-													</div>
-												</div>
-											</div>
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="far fa-money-bill-alt"></i>
-													</div>
-													<div class="col-11">
-														<span>تكاليف الدكتور : 100 جنيه مصري</span>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="row mb-2">
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="fas fa-clock"></i>
-													</div>
-													<div class="col-11">
-														<span>تاريخ الحجز :  10-5-2020</span>
-													</div>
-												</div>
-											</div>
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="fas fa-calendar"></i>
-													</div>
-													<div class="col-11">
-														<span>وقت الحجز :  11:00 PM</span>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-	
-
-						<!-- /row_item -->
-						<div class="row row_item">
-							<div class="col-sm-3">
-								<figure>
-									<a href="doctor-profile.html">
-										<img class="img-fluid lazy" src="assets/img/doctor/doctor-img/doctor-01.jpg"
-											alt="">
-									</a>
-								</figure>
-							</div>
-							<div class="col-sm-9">
-								<div class="pro-content">
-									<h3 class="title">
-										<a href="doctor-profile.html">دكتور . اسم الدكتور</a>
-									</h3>
-									<p class="speciality">التخصص</p>
-									<div class="available-info">
-										<div class="row mb-2">
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="fas fa-map-marker-alt"></i>
-													</div>
-													<div class="col-11">
-														<span>العنوان : العنوان بالكامل</span>
-													</div>
-												</div>
-											</div>
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="far fa-money-bill-alt"></i>
-													</div>
-													<div class="col-11">
-														<span>تكاليف الدكتور : 100 جنيه مصري</span>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="row mb-2">
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="fas fa-clock"></i>
-													</div>
-													<div class="col-11">
-														<span>تاريخ الحجز :  10-5-2020</span>
-													</div>
-												</div>
-											</div>
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="fas fa-calendar"></i>
-													</div>
-													<div class="col-11">
-														<span>وقت الحجز :  11:00 PM</span>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-	
-
-						<!-- /row_item -->
-						<div class="row row_item">
-							<div class="col-sm-3">
-								<figure>
-									<a href="doctor-profile.html">
-										<img class="img-fluid lazy" src="assets/img/doctor/doctor-img/doctor-01.jpg"
-											alt="">
-									</a>
-								</figure>
-							</div>
-							<div class="col-sm-9">
-								<div class="pro-content">
-									<h3 class="title">
-										<a href="doctor-profile.html">دكتور . اسم الدكتور</a>
-									</h3>
-									<p class="speciality">التخصص</p>
-									<div class="available-info">
-										<div class="row mb-2">
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="fas fa-map-marker-alt"></i>
-													</div>
-													<div class="col-11">
-														<span>العنوان : العنوان بالكامل</span>
-													</div>
-												</div>
-											</div>
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="far fa-money-bill-alt"></i>
-													</div>
-													<div class="col-11">
-														<span>تكاليف الدكتور : 100 جنيه مصري</span>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="row mb-2">
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="fas fa-clock"></i>
-													</div>
-													<div class="col-11">
-														<span>تاريخ الحجز :  10-5-2020</span>
-													</div>
-												</div>
-											</div>
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="fas fa-calendar"></i>
-													</div>
-													<div class="col-11">
-														<span>وقت الحجز :  11:00 PM</span>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-	
-
-						<!-- /row_item -->
-						<div class="row row_item">
-							<div class="col-sm-3">
-								<figure>
-									<a href="doctor-profile.html">
-										<img class="img-fluid lazy" src="assets/img/doctor/doctor-img/doctor-01.jpg"
-											alt="">
-									</a>
-								</figure>
-							</div>
-							<div class="col-sm-9">
-								<div class="pro-content">
-									<h3 class="title">
-										<a href="doctor-profile.html">دكتور . اسم الدكتور</a>
-									</h3>
-									<p class="speciality">التخصص</p>
-									<div class="available-info">
-										<div class="row mb-2">
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="fas fa-map-marker-alt"></i>
-													</div>
-													<div class="col-11">
-														<span>العنوان : العنوان بالكامل</span>
-													</div>
-												</div>
-											</div>
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="far fa-money-bill-alt"></i>
-													</div>
-													<div class="col-11">
-														<span>تكاليف الدكتور : 100 جنيه مصري</span>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="row mb-2">
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="fas fa-clock"></i>
-													</div>
-													<div class="col-11">
-														<span>تاريخ الحجز :  10-5-2020</span>
-													</div>
-												</div>
-											</div>
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="fas fa-calendar"></i>
-													</div>
-													<div class="col-11">
-														<span>وقت الحجز :  11:00 PM</span>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-	
-
-						<!-- /row_item -->
-						<div class="row row_item">
-							<div class="col-sm-3">
-								<figure>
-									<a href="doctor-profile.html">
-										<img class="img-fluid lazy" src="assets/img/doctor/doctor-img/doctor-01.jpg"
-											alt="">
-									</a>
-								</figure>
-							</div>
-							<div class="col-sm-9">
-								<div class="pro-content">
-									<h3 class="title">
-										<a href="doctor-profile.html">دكتور . اسم الدكتور</a>
-									</h3>
-									<p class="speciality">التخصص</p>
-									<div class="available-info">
-										<div class="row mb-2">
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="fas fa-map-marker-alt"></i>
-													</div>
-													<div class="col-11">
-														<span>العنوان : العنوان بالكامل</span>
-													</div>
-												</div>
-											</div>
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="far fa-money-bill-alt"></i>
-													</div>
-													<div class="col-11">
-														<span>تكاليف الدكتور : 100 جنيه مصري</span>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="row mb-2">
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="fas fa-clock"></i>
-													</div>
-													<div class="col-11">
-														<span>تاريخ الحجز :  10-5-2020</span>
-													</div>
-												</div>
-											</div>
-											<div class="col-6">
-												<div class="row">
-													<div class="col-1">
-														<i class="fas fa-calendar"></i>
-													</div>
-													<div class="col-11">
-														<span>وقت الحجز :  11:00 PM</span>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-	
-						<div class="pagination__wrapper">
-							<ul class="pagination">
-								<li><a href="#0" class="prev" title="previous page">❮</a></li>
-								<li>
-									<a href="#0" class="active">1</a>
-								</li>
-								<li>
-									<a href="#0">2</a>
-								</li>
-								<li>
-									<a href="#0">3</a>
-								</li>
-								<li>
-									<a href="#0">4</a>
-								</li>
-								<li><a href="#0" class="next" title="next page">❯</a></li>
-							</ul>
-						</div>
-
-					</div>
-					<!-- /col -->
-				</div>
-			</div><!-- /container -->
-
-
-
 			<!-- /container -->
-
-
+			
 		</main>
 		<!-- /main -->
 
@@ -735,7 +284,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-md-6">
-						<h3>About Consulto.app | Doctor</h3>
+						<h3>About Consulto.app | labs</h3>
 						<p>
 							In spite of the availability of highly qualified Health care providers In our Health care
 							providing community but patients are not always receiving the quality service they deserve
